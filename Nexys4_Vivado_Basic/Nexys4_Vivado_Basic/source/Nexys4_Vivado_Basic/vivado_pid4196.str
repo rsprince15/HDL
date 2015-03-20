@@ -1,0 +1,560 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+Process ID: 4196
+
+Current time: 	3/20/15 5:23:38 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1680x1050
+Screen resolution (DPI): 120
+Available screens: 2
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	Evil_Box
+User directory: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/Evil_Box/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/Evil_Box/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	137 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 322 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 0.7s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// ay:ad (ch:JFrame): Older Project Version: addNotify
+// [GUI Memory]: 58 MB (+57888kb) [00:00:05]
+// [Engine Memory]: 321 MB (+185625kb) [00:00:05]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ay:ad)
+// HMemoryUtils.trashcanNow. Engine heap size: 335 MB. GUI used memory: 25 MB. Current time: 3/20/15 5:23:40 PM
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ay:ad)
+// cm:N (ch:JFrame):  Open Project : addNotify
+dismissDialog("Older Project Version"); // ay:ad (ch:JFrame)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 359 MB (+39337kb) [00:00:10]
+// Tcl Message: open_project D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Sam_work/Vivado_projects/13_2/Nexys4_Vivado_Basic' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'Nexys4_Vivado_Basic.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+4261kb) [00:00:11]
+// [Engine Memory]: 374 MB (+15876kb) [00:00:11]
+// [Engine Memory]: 379 MB (+5013kb) [00:00:11]
+// [Engine Memory]: 413 MB (+35536kb) [00:00:12]
+// [Engine Memory]: 415 MB (+2494kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 416 MB (+565kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 417 MB (+864kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 417 MB (+299kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 419 MB (+2019kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 420 MB (+1253kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 420 MB (+335kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 649.750 ; gain = 91.656 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 423 MB (+3133kb) [00:00:16]
+// Tcl Message: update_compile_order -fileset sim_1 
+// [Engine Memory]: 429 MB (+5976kb) [00:00:18]
+// TclEventType: DG_UPDATE_GRAPH
+// Project name: Nexys4_Vivado_Basic; location: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic; part: xc7a100tcsg324-1
+// Elapsed time: 15 seconds
+selectButton("PAResourceOtoP.PABaseTab_VIVADO_NO_LONGER_USES_WORK_AS_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// [Engine Memory]: 432 MB (+3207kb) [00:00:27]
+// [GUI Memory]: 62 MB (+191kb) [00:00:30]
+// [Engine Memory]: 444 MB (+12066kb) [00:00:30]
+selectButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "run_implementation"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// [GUI Memory]: 64 MB (+2114kb) [00:00:35]
+// [Engine Memory]: 445 MB (+1916kb) [00:00:35]
+// cm:N (ch:JFrame):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Fri Mar 20 17:24:09 2015] Launched synth_1... Run output will be captured here: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/synth_1/runme.log [Fri Mar 20 17:24:09 2015] Launched impl_1... Run output will be captured here: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+// [GUI Memory]: 71 MB (+7019kb) [00:00:37]
+dismissDialog("Starting Design Runs"); // cm:N (ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 463 MB. GUI used memory: 36 MB. Current time: 3/20/15 5:24:11 PM
+// [Engine Memory]: 464 MB (+19611kb) [00:00:39]
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// [Engine Memory]: 465 MB (+995kb) [00:01:05]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // w:Y (v:I, ch:JFrame)
+// [Engine Memory]: 466 MB (+970kb) [00:01:14]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false, false, false, false, false, true); // w:Y (v:I, ch:JFrame) - Double Click
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 495 MB (+30490kb) [00:01:16]
+// [Engine Memory]: 499 MB (+3940kb) [00:01:16]
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (ch:JFrame): Open New Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 518 MB. GUI used memory: 42 MB. Current time: 3/20/15 5:24:51 PM
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// [Engine Memory]: 518 MB (+20377kb) [00:01:20]
+// cm:N (ae:g):  Open Server : addNotify
+// TclEventType: RUN_COMPLETED
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// cm:N (ae:g):  Open Target : addNotify
+// TclEventType: HW_TARGET_CHANGE
+dismissDialog("Open Server"); // cm:N (ae:g)
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Target"); // cm:N (ae:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// cm:N (ae:g):  Open Hardware Target : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274533647A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274533647A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274533647A 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// 'o' command handler elapsed time: 15 seconds
+dismissDialog("Open Hardware Target"); // cm:N (ae:g)
+dismissDialog("Open New Hardware Target"); // ae:g (ch:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ac (ch:JFrame): Program Device: addNotify
+// [GUI Memory]: 71 MB (+185kb) [00:01:42]
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aC:ac)
+// 'p' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // aC:ac (ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ac (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q:a (aO:JPanel, aC:ac)
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aC:ac)
+// 'p' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // aC:ac (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 23, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Project Settings: addNotify
+// [GUI Memory]: 83 MB (+13215kb) [00:01:59]
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 23, false, false, false, false, false, true); // w:Y (v:I, ch:JFrame) - Double Click
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+// [Engine Memory]: 524 MB (+6148kb) [00:02:03]
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 28, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Add Configuration Memory Device]", 28, false, false, false, false, false, true); // w:Y (v:I, ch:JFrame) - Double Click
+selectMenuItem((HResource) null, "xc7a100t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// [GUI Memory]: 84 MB (+682kb) [00:02:13]
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aw:N (ch:JFrame): Add Configuration Memory Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aw:N)
+dismissDialog("Add Configuration Memory Device"); // aw:N (ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false); // f:au (JViewport:JComponent, ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton(PAResourceEtoH.HardwareDevicePropPanels_SPECIFY_BITSTREAM_FILE, (String) null); // q:a (H:aO, ch:JFrame)
+dismissFileChooser();
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 20, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("PAResourceQtoS.RunRun_TASK_ALREADY_RUNNING_WOULD_YOU_LIKE_Cancel", "Cancel"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Implementation Settings]", 19, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IMPL_SETTINGS
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)Project Settings: addNotify
+// [GUI Memory]: 88 MB (+4739kb) [00:02:34]
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 18, true); // w:Y (v:I, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 18, true); // w:Y (v:I, ch:JFrame) - Node
+// [GUI Memory]: 106 MB (+18639kb) [00:02:44]
+// TclEventType: RUN_COMPLETED
+// Q:al (ch:JFrame): Implementation Completed: addNotify
+// Elapsed time: 17 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:al)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:al)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:al (ch:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Mar 20 17:26:31 2015] Launched impl_1... Run output will be captured here: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/runme.log 
+// [GUI Memory]: 107 MB (+830kb) [00:03:29]
+// [GUI Memory]: 108 MB (+1057kb) [00:03:34]
+// TclEventType: RUN_COMPLETED
+// Q:al (ch:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 57 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:al)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// cm:N (ch:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 552 MB. GUI used memory: 52 MB. Current time: 3/20/15 5:27:31 PM
+// [Engine Memory]: 657 MB (+139513kb) [00:04:01]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 52 MB. Current time: 3/20/15 5:27:37 PM
+// [Engine Memory]: 757 MB (+104296kb) [00:04:04]
+// [Engine Memory]: 782 MB (+26226kb) [00:04:05]
+// Xgd.load filename: C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.6s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi.loadEngineXgd elapsed time: 0.8s
+// [Engine Memory]: 848 MB (+69595kb) [00:04:05]
+// TclEventType: DESIGN_NEW
+// Device: addNotify
+// [Engine Memory]: 850 MB (+2379kb) [00:04:12]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2014.4 
+// Tcl Message: Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml... Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/.Xil/Vivado-4196-Evil_Box_PC/dcp/GPIO_demo.xdc] Finished Parsing XDC File [D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/.Xil/Vivado-4196-Evil_Box_PC/dcp/GPIO_demo.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.336 . Memory (MB): peak = 909.711 ; gain = 1.805 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.336 . Memory (MB): peak = 909.711 ; gain = 1.805 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1018.250 ; gain = 299.156 
+// [Engine Memory]: 852 MB (+2076kb) [00:04:13]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dg' command handler elapsed time: 17 seconds
+// [Engine Memory]: 853 MB (+1282kb) [00:04:13]
+// [Engine Memory]: 854 MB (+696kb) [00:04:13]
+// bE:N (ch:JFrame): Feedback Request: addNotify
+// Device view-level: 0.0
+// [Engine Memory]: 861 MB (+7135kb) [00:04:14]
+// [Engine Memory]: 863 MB (+1769kb) [00:04:14]
+// [Engine Memory]: 863 MB (+28kb) [00:04:14]
+// [Engine Memory]: 863 MB (+53kb) [00:04:14]
+// [Engine Memory]: 863 MB (+86kb) [00:04:14]
+// [Engine Memory]: 863 MB (+36kb) [00:04:14]
+// [Engine Memory]: 863 MB (+274kb) [00:04:14]
+// [Engine Memory]: 863 MB (+20kb) [00:04:14]
+// [Engine Memory]: 863 MB (+143kb) [00:04:14]
+// [Engine Memory]: 864 MB (+536kb) [00:04:14]
+// [Engine Memory]: 864 MB (+8kb) [00:04:14]
+// [Engine Memory]: 864 MB (+196kb) [00:04:14]
+// [Engine Memory]: 864 MB (+4kb) [00:04:14]
+// [Engine Memory]: 864 MB (+110kb) [00:04:14]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 876 MB (+12554kb) [00:04:14]
+// [Engine Memory]: 878 MB (+2334kb) [00:04:15]
+// [Engine Memory]: 887 MB (+9252kb) [00:04:16]
+// Elapsed time: 17 seconds
+dismissDialog("Open Implemented Design"); // cm:N (ch:JFrame)
+// [Engine Memory]: 892 MB (+4943kb) [00:04:20]
+selectButton(RDIResource.BaseDialog_NO, "No"); // a:JButton (JPanel:JComponent, bE:N)
+// [Engine Memory]: 899 MB (+7954kb) [00:04:23]
+// [Engine Memory]: 903 MB (+3481kb) [00:04:23]
+dismissDialog("Feedback Request"); // bE:N (ch:JFrame)
+selectButton("PAResourceTtoZ.TouchpointSurveyDialog_USE_TOOLS_OPTIONS_WINDOWS_BEHAVIOR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, Q:JDialog)
+// [Engine Memory]: 903 MB (+704kb) [00:04:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 903 MB. GUI used memory: 84 MB. Current time: 3/20/15 5:27:57 PM
+// [Engine Memory]: 905 MB (+2068kb) [00:04:26]
+// [Engine Memory]: 910 MB (+4874kb) [00:04:28]
+// [Engine Memory]: 921 MB (+11640kb) [00:04:29]
+// [Engine Memory]: 921 MB (+184kb) [00:04:30]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [Engine Memory]: 921 MB (+192kb) [00:04:30]
+// [Engine Memory]: 995 MB (+77570kb) [00:04:31]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [Engine Memory]: 1,022 MB (+28250kb) [00:04:32]
+// [Engine Memory]: 1,026 MB (+3964kb) [00:04:32]
+// [Engine Memory]: 1,094 MB (+70901kb) [00:04:32]
+// RouteApi.initDelayMediator elapsed time: 20.3s
+// [Engine Memory]: 1,248 MB (+161959kb) [00:04:33]
+// [Engine Memory]: 1,253 MB (+5402kb) [00:04:34]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 34, true); // w:Y (v:I, ch:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// [GUI Memory]: 111 MB (+2686kb) [00:04:36]
+selectButton(PAResourceEtoH.HardwareDevicePropPanels_SPECIFY_BITSTREAM_FILE, (String) null); // q:a (H:aO, ch:JFrame)
+dismissFileChooser();
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// [GUI Memory]: 120 MB (+9390kb) [00:04:40]
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cm:N (ch:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Mar 20 17:28:13 2015] Launched impl_1... Run output will be captured here: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cm:N (ch:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:al (ch:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 121 MB (+1960kb) [00:05:32]
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:al)
+// [GUI Memory]: 122 MB (+967kb) [00:05:36]
+dismissDialog("Bitstream Generation Completed"); // Q:al (ch:JFrame)
+selectButton(PAResourceEtoH.HardwareDevicePropPanels_SPECIFY_BITSTREAM_FILE, (String) null); // q:a (H:aO, ch:JFrame)
+dismissFileChooser();
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 35, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210274533647A,PARAM.FREQUENCY:15000000"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// cm:N (ch:JFrame):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: disconnect_hw_server localhost 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274533647A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274533647A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274533647A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/GPIO_demo.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [GUI Memory]: 123 MB (+713kb) [00:05:49]
+// [Engine Memory]: 1,259 MB (+6352kb) [00:05:49]
+dismissDialog("Open Hardware Target"); // cm:N (ch:JFrame)
+// [GUI Memory]: 126 MB (+3523kb) [00:06:27]
+// Elapsed time: 38 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a100t_0 (1) ; Programmed", 2, "xc7a100t_0 (1)", 0, true); // f:au (JViewport:JComponent, ch:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210274533647A (1) ; Open", 1, "xilinx_tcf/Digilent/210274533647A (1)", 0, true); // f:au (JViewport:JComponent, ch:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false); // f:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a100t_0 (1) ; Programmed", 2, "xc7a100t_0 (1)", 0, true); // f:au (JViewport:JComponent, ch:JFrame) - Node
+// [GUI Memory]: 129 MB (+3111kb) [00:06:36]
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ac (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ac)
+// cm:N (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ac (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/GPIO_demo.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 

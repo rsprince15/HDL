@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Mar 20 17:26:34 2015
+# Process ID: 8652
+# Log file: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/GPIO_demo.vdi
+# Journal file: D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source GPIO_demo.tcl -notrace

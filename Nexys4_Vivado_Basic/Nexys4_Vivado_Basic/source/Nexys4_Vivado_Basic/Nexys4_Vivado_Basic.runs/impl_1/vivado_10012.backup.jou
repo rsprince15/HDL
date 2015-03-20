@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# Vivado v2013.2 (64-bit)
+# Build 272601 by xbuild on Sat Jun 15 11:27:26 MDT 2013
+# Start of session at: Tue Sep 03 17:42:33 2013
+# Process ID: 6224
+# Log file: C:/Sam_work/Vivado_projects/13_2/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1/GPIO_demo.rdi
+# Journal file: C:/Sam_work/Vivado_projects/13_2/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source GPIO_demo.tcl -notrace
