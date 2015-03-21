@@ -10,3 +10,4 @@
 start_gui
 open_project D:/HDL/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic/source/Nexys4_Vivado_Basic/Nexys4_Vivado_Basic.xpr
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

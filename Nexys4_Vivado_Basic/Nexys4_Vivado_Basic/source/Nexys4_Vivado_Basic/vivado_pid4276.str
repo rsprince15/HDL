@@ -197,3 +197,15 @@ closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
 // TclEventType: DG_UPDATE_GRAPH
 // Tcl Message: update_compile_order -fileset sources_1 
 // TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 471 MB. GUI used memory: 36 MB. Current time: 3/20/15 8:01:41 PM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
