@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 21 13:57:24 2018
+# Process ID: 27483
+# Current directory: /home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.runs/impl_1
+# Command line: vivado -log LEDs.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source LEDs.tcl -notrace
+# Log file: /home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.runs/impl_1/LEDs.vdi
+# Journal file: /home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source LEDs.tcl -notrace

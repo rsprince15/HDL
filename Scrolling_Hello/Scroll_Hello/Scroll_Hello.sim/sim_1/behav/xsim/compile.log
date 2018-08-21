@@ -1,0 +1,34 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+ERROR: [VRFC 10-2666] formal port btnc has no actual or default value [/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd:38]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd:11]
+INFO: [VRFC 10-240] VHDL file /home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+ERROR: [VRFC 10-2666] formal port btnc has no actual or default value [/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd:38]
+ERROR: [VRFC 10-1504] unit behavior ignored due to previous errors [/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd:11]
+INFO: [VRFC 10-240] VHDL file /home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
