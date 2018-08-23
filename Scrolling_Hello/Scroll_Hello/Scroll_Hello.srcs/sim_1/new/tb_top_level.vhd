@@ -24,10 +24,11 @@ ARCHITECTURE behavior OF tb IS
 
    --Inputs
    signal clk : std_logic := '0';
-        --Outputs
+   
+   --Outputs
    signal seg : std_logic_vector(6 downto 0);
    signal an : std_logic_vector(7 downto 0);
-
+   
    -- Clock period definitions
    constant clk_period : time := 1 ns;
 BEGIN
