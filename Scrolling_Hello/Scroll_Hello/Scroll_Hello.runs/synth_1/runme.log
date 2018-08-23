@@ -14,15 +14,36 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 27346 
+INFO: Helper process launched with PID 23617 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1258.434 ; gain = 79.832 ; free physical = 432 ; free virtual = 9715
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1258.438 ; gain = 79.832 ; free physical = 1241 ; free virtual = 8546
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'LEDs' [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'LEDs' (1#1) [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:34]
-WARNING: [Synth 8-3331] design LEDs has unconnected port btnC
+INFO: [Synth 8-638] synthesizing module 'LEDs' [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:33]
+WARNING: [Synth 8-614] signal 'dp_i' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'cnt_1s' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'cnt' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'space' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'one' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'two' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'three' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'four' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'five' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'six' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'seven' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'H' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'eight' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'E' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'L' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'O' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'P' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'n' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'S' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+WARNING: [Synth 8-614] signal 'r' is read in the process but is not in the sensitivity list [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'LEDs' (1#1) [/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd:33]
+WARNING: [Synth 8-3917] design LEDs has port dp driven by constant 1
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.059 ; gain = 124.457 ; free physical = 443 ; free virtual = 9726
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1303.062 ; gain = 124.457 ; free physical = 1252 ; free virtual = 8558
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -35,10 +56,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1303.059 ; gain = 124.457 ; free physical = 442 ; free virtual = 9726
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1303.062 ; gain = 124.457 ; free physical = 1251 ; free virtual = 8557
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1303.059 ; gain = 124.457 ; free physical = 442 ; free virtual = 9726
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1303.062 ; gain = 124.457 ; free physical = 1251 ; free virtual = 8557
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -54,26 +75,49 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1642.855 ; gain = 0.000 ; free physical = 189 ; free virtual = 9464
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1643.859 ; gain = 0.000 ; free physical = 990 ; free virtual = 8292
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 266 ; free virtual = 9541
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 1068 ; free virtual = 8370
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 266 ; free virtual = 9541
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 1068 ; free virtual = 8370
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 268 ; free virtual = 9543
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 1070 ; free virtual = 8371
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5545] ROM "dp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "seg" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "an" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnt2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_1s" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_1s2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 259 ; free virtual = 9535
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 1061 ; free virtual = 8363
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -86,21 +130,18 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-+---Registers : 
-	               32 Bit    Registers := 1     
-	                8 Bit    Registers := 1     
-	                7 Bit    Registers := 1     
-	                1 Bit    Registers := 1     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
 +---Muxes : 
-	   8 Input      8 Bit        Muxes := 1     
-	   4 Input      7 Bit        Muxes := 2     
-	   8 Input      3 Bit        Muxes := 1     
-	   6 Input      2 Bit        Muxes := 1     
-	   8 Input      2 Bit        Muxes := 1     
-	   9 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-	   8 Input      1 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 20    
+	   9 Input      7 Bit        Muxes := 19    
+	   2 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -111,21 +152,18 @@ Hierarchical RTL Component report
 Module LEDs 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-+---Registers : 
-	               32 Bit    Registers := 1     
-	                8 Bit    Registers := 1     
-	                7 Bit    Registers := 1     
-	                1 Bit    Registers := 1     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
 +---Muxes : 
-	   8 Input      8 Bit        Muxes := 1     
-	   4 Input      7 Bit        Muxes := 2     
-	   8 Input      3 Bit        Muxes := 1     
-	   6 Input      2 Bit        Muxes := 1     
-	   8 Input      2 Bit        Muxes := 1     
-	   9 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-	   8 Input      1 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 20    
+	   9 Input      7 Bit        Muxes := 19    
+	   2 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -142,17 +180,13 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "dp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-3331] design LEDs has unconnected port btnC
-INFO: [Synth 8-3886] merging instance 'seg_reg[1]' (FDRE) to 'seg_reg[2]'
-INFO: [Synth 8-3886] merging instance 'seg_reg[4]' (FDRE) to 'seg_reg[5]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (dp_reg)
-WARNING: [Synth 8-3332] Sequential element (dp_reg) is unused and will be removed from module LEDs.
+INFO: [Synth 8-5545] ROM "cnt_1s2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_1s" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design LEDs has port dp driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 246 ; free virtual = 9523
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 1039 ; free virtual = 8343
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -164,13 +198,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 151 ; free virtual = 9400
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 1643.859 ; gain = 465.254 ; free physical = 915 ; free virtual = 8220
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:41 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 884 ; free virtual = 8188
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -182,7 +216,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9398
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8184
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,7 +240,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -219,7 +253,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -231,25 +265,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -266,43 +300,45 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |     8|
-|3     |LUT3   |    14|
-|4     |LUT4   |     4|
-|5     |LUT5   |     5|
-|6     |LUT6   |     5|
-|7     |FDRE   |    43|
-|8     |FDSE   |     2|
-|9     |IBUF   |     1|
-|10    |OBUF   |    16|
+|2     |CARRY4 |   155|
+|3     |LUT1   |    97|
+|4     |LUT2   |   167|
+|5     |LUT3   |   231|
+|6     |LUT4   |    68|
+|7     |LUT5   |   131|
+|8     |LUT6   |   304|
+|9     |FDRE   |   128|
+|10    |IBUF   |     1|
+|11    |OBUF   |    16|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    99|
+|1     |top      |       |  1299|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1642.855 ; gain = 464.254 ; free physical = 150 ; free virtual = 9399
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.445 ; gain = 502.840 ; free physical = 880 ; free virtual = 8185
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1642.855 ; gain = 124.457 ; free physical = 204 ; free virtual = 9453
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1642.863 ; gain = 464.254 ; free physical = 204 ; free virtual = 9453
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1681.445 ; gain = 162.043 ; free physical = 936 ; free virtual = 8241
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 1681.453 ; gain = 502.840 ; free physical = 936 ; free virtual = 8241
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 156 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'LEDs' is not ideal for floorplanning, since the cellview 'LEDs' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-22 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+42 Infos, 24 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 1642.863 ; gain = 464.430 ; free physical = 201 ; free virtual = 9450
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 1681.453 ; gain = 503.016 ; free physical = 949 ; free virtual = 8253
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.runs/synth_1/LEDs.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file LEDs_utilization_synth.rpt -pb LEDs_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1666.867 ; gain = 0.000 ; free physical = 201 ; free virtual = 9450
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 21 13:57:22 2018...
+report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1705.457 ; gain = 0.000 ; free physical = 947 ; free virtual = 8251
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 22 21:54:12 2018...

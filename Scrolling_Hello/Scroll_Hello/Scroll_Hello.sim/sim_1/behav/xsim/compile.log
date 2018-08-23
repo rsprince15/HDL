@@ -32,3 +32,41 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_
 INFO: [VRFC 10-307] analyzing entity LEDs
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/Scroll_Hello/Scroll_Hello.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/evil-user/projects/HDL/Scrolling_Hello/LEDs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs
