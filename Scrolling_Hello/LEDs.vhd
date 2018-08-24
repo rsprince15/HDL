@@ -15,6 +15,10 @@
 -- Revision: 
 -- Revision 0.01 - File Created
 -- Additional Comments: 
+--                       count should increment every 1 ms / 8
+--                       count should refresh every 1 ms
+--                       count_1s should increment every 25 ms
+--                       count_1s should refresh every 100 ms
 --
 ----------------------------------------------------------------------------------
 library IEEE;
